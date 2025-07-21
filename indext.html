@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Styling/styles.css" />
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav class="navbar">
+      <a href="#home" class="logo">Katlyn Locke</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Full-Stack Developer</h1>
+        <h2>Hi, I'm Kate!</h2>
+        <p>
+          In early 2024, I took an introductory programming course just to see
+          if coding might be for me—and I quickly discovered that it absolutely
+          was. That initial spark led me to enroll in a full stack web
+          development bootcamp, where I spent 15 intense weeks diving deep into
+          both front and back end technologies. It was during that time that I
+          found my passion in frontend development. I realized I could blend my
+          love for art and visual design with code to build engaging, intuitive,
+          and accessible user experiences. Now, I focus on creating beautiful,
+          functional web applications that prioritize both aesthetics and
+          usability.
+        </p>
+        <a href="#contact" class="cta-button">Let's Connect</a>
+      </div>
+      <div class="hero-image">
+        <img src="./Images/profilepic.jpg" alt="Profile" class="profile-img" />
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="skills">
+      <h2 class="skills-header">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Frontend Development</h3>
+          <ul>
+            <li class="skill-item">JavaScript</li>
+            <li class="skill-item">HTML</li>
+            <li class="skill-item">CSS</li>
+            <li class="skill-item">React</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-server"></i>
+          <h3>Backend Development</h3>
+          <ul>
+            <li class="skill-item">Java</li>
+            <li class="skill-item">Spring Boot</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-wrench"></i>
+          <h3>Tools</h3>
+          <ul>
+            <li class="skill-item">VS Code</li>
+            <li class="skill-item">GitHub</li>
+            <li class="skill-item">Git</li>
+            <li class="skill-item">Postman</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-brain"></i>
+          <h3>Other</h3>
+          <ul>
+            <li class="skill-item">RESTful APIs</li>
+            <li class="skill-item">UI/UX Design Processes & Principles</li>
+            <li class="skill-item">Agile & Scrum Methodologies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+
+    <!--Contact-->
+    <section id="contact" class="contact">
+      <h3 class="contact-header">Contact Me</h3>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Email</h4>
+          <a href="mailto:katlynlocke1028@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <div class="contact-card">
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2025 Katlyn Locke. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
