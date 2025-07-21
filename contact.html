@@ -16,7 +16,7 @@
   <body>
     <!--Navigation-->
     <nav class="navbar">
-      <a href="#home" class="logo">Katlyn Locke</a>
+      <a href="index.html" class="logo">Katlyn Locke</a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -30,31 +30,64 @@
       <h1 class="contact-header">Let's Connect!</h1>
       <div class="contact-grid">
         <div class="contact-card">
-          <h3 class="email-header">E-mail</h3>
+          <h3 class="email-header">Email</h3>
           <form
             class="email-form"
-            action="mailto:your.email@example.com"
+            action="mailto:katlynlocke1028@gmail.com"
             method="post"
             enctype="text/plain"
           >
             <label class="email-label" for="name">Name:</label><br />
-            <input type="text" id="name" name="name" /><br /><br />
+            <input
+              class="email-input"
+              type="text"
+              id="name"
+              name="name"
+            /><br /><br />
             <label class="email-label" for="email">Email:</label><br />
-            <input type="email" id="email" name="email" /><br /><br />
+            <input
+              class="email-input"
+              type="email"
+              id="email"
+              name="email"
+            /><br /><br />
             <label class="email-label" for="message">Message:</label><br />
-            <textarea id="message" name="message" rows="4" cols="50"></textarea
+            <textarea
+              class="message-input"
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+            ></textarea
             ><br /><br />
-            <input type="submit" value="Send" />
+            <input class="email-button" type="submit" value="Send" />
           </form>
         </div>
         <div class="contact-card">
           <h2 class="socials-header">Find me here!</h2>
-          <h3>LinkedIn</h3>
+          <h3>LinkedIn:</h3>
           <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/"
             ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <h3>GitHub:</h3>
+          <a href="https://github.com/klocke1028"
+            ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </div>
     </section>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2025 Katlyn Locke. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/klocke1028"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
