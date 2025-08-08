@@ -82,12 +82,6 @@ body {
 
 /*Contact Info*/
 
-.email-header {
-  font-size: 2.5rem;
-  padding-top: 0.5rem;
-  text-align: center;
-}
-
 .contact {
   padding: 5rem 5%;
   background: var(--darker-bg);
@@ -103,7 +97,7 @@ body {
   align-items: center;
 }
 
-.contact-card {
+.email-card {
   padding: 2rem;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.05);
@@ -111,13 +105,21 @@ body {
   border: 3px solid var(--accent);
   box-shadow: 0 0 50px var(--accent-glow);
   backdrop-filter: blur(5px);
-  width: 70%;
+  width: 80%;
 }
 
-.contact-card i {
+.email-header {
   font-size: 2.5rem;
-  color: var(--text);
-  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .email-input {
@@ -150,6 +152,23 @@ body {
   transform: translateY(-10px);
   border-color: var(--accent);
   box-shadow: 0 10px 30px var(--accent-glow);
+}
+
+.social-card {
+  padding: 2rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 50px var(--accent-glow);
+  backdrop-filter: blur(5px);
+  width: 40%;
+}
+
+.social-card i {
+  font-size: 2.5rem;
+  color: var(--text);
+  margin-bottom: 1rem;
 }
 
 .social-header {
