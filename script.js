@@ -15,3 +15,12 @@ window.addEventListener("scroll", () => {
     ? (navbar.computedStyleMap.backgroundColor = "rgba(10, 10, 10, 0.98)")
     : (navbar.computedStyleMap.backgroundColor = "rgba 10, 10, 10, 0.95");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburger.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+  });
+});

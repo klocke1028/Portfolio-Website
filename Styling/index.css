@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--accent);
   text-decoration: none;
@@ -72,6 +72,12 @@ body {
 
 .nav-links a:hover::after {
   width: 100%;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 /*Hero Section*/
@@ -213,6 +219,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    padding-left: 0;
+    font-size: 1.5rem;
+  }
+
   .hero {
     flex-direction: column;
     text-align: center;
@@ -230,11 +241,20 @@ footer {
   }
 
   .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 10, 10, 0.8);
     display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .logo {
-    font-size: 1.5rem;
-    padding-left: 2rem;
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
   }
 }
